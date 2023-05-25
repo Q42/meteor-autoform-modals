@@ -1,17 +1,17 @@
 Package.describe({
-  name: 'yogiben:autoform-modals',
+  name: 'q42internal:autoform-modals',
   summary: "Create, update and delete collections with modals",
-  version: "0.3.8",
+  version: "1.0.0",
   git: "https://github.com/yogiben/meteor-autoform-modals"
 });
 
-Package.on_use(function (api) {
-  api.versionsFrom('METEOR@1.2.0.1');
+Package.onUse(function (api) {
+  api.versionsFrom('2.3.7');
 
   api.use([
     'jquery',
     'templating',
-    'less@2.5.0_2',
+    'less',
     'session',
     'coffeescript',
     'ui',
@@ -20,7 +20,7 @@ Package.on_use(function (api) {
     'mpowaga:string-template@0.1.0'
   ], 'client');
 
-  api.add_files('lib/client/modals.html', 'client');
-  api.add_files('lib/client/modals.coffee', 'client');
-  api.add_files('lib/client/modals.less', 'client');
+  api.addFiles('lib/client/modals.html', 'client');
+  api.addFiles('lib/client/modals.coffee', 'client');
+  api.addFiles('lib/client/modals.less', 'client');
 });
