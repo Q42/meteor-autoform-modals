@@ -9,12 +9,12 @@ Package.onUse(function (api) {
   api.versionsFrom('2.3.7');
 
   api.use([
-    'jquery',
-    'templating',
-    'less',
+    'jquery@1.11.11',
+    'templating@1.4.2',
+    'less@3.0.2',
     'session',
-    'coffeescript',
-    'ui',
+    'coffeescript@1.0.17',
+    'ui@1.0.13',
     'aldeed:autoform@5.5.1',
     'raix:handlebar-helpers@0.2.5',
     'mpowaga:string-template@0.1.0'
