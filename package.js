@@ -1,7 +1,7 @@
 Package.describe({
   name: 'q42internal:autoform-modals',
   summary: "Create, update and delete collections with modals",
-  version: "1.0.0-beta.1",
+  version: "1.0.0",
   git: "https://github.com/Q42/meteor-autoform-modals"
 });
 

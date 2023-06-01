@@ -42,7 +42,7 @@ mpowaga:string-template@0.1.0
 observe-sequence@1.0.16
 ordered-dict@1.1.0
 promise@0.12.2
-q42internal:autoform-modals@1.0.0-beta.1
+q42internal:autoform-modals@1.0.0
 raix:handlebar-helpers@0.2.5
 random@1.2.1
 react-fast-refresh@0.2.7
