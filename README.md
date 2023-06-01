@@ -3,6 +3,13 @@ Meteor [Autoform](https://github.com/aldeed/meteor-autoform) Modals
 
 Adds bootstrap modals to insert/update/remove docs from Meteor collections.
 
+
+## Fork disclaimer
+
+This fork is not maintained, and does not add any functionality on top of the original version. It only exists for
+internal usage inside the Q42 org. If you want to use the package in your personal repository, it is recommended to use
+the official version which can be found here: https://github.com/yogiben/meteor-autoform-modals.
+
 ## Setup ##
 
 1. ```meteor add yogiben:autoform-modals```
